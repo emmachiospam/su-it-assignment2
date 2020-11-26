@@ -1,5 +1,5 @@
 function greet(name) {
-  return "hi " + name + "!! how's it going?"
+  return "hi " + name + "!! how's it going?";
 }
 
-console.log(greet("emma"))
+module.export = greet;
