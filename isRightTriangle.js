@@ -1,5 +1,5 @@
 function isRightTriangle (a, b, c) {
-  if((a == 0 || b == 0) || c == 0) {
+  if((a <= 0 || b <= 0) || c <= 0) {
     return false;
   }
   else if((a * a + b * b) == c * c) {
