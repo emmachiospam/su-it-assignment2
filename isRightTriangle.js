@@ -13,4 +13,4 @@ function isRightTriangle (a, b, c) {
   }
 }
 
-module.export = isRightTriangle;
+module.exports = isRightTriangle;
